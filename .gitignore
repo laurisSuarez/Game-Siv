@@ -1,0 +1,106 @@
+# ==========================================
+# UNITY - GITIGNORE
+# ==========================================
+
+# Carpetas temporales y caché de Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+.utmp/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.blend1
+*.blend1.meta
+
+# ==========================================
+# VISUAL STUDIO / RIDER / VS CODE
+# ==========================================
+
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DotSettings.user
+
+# Plugins generados por Rider
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Metadatos de archivos generados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ==========================================
+# COMPILACIONES
+# ==========================================
+
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+crashlytics-build.properties
+
+# ==========================================
+# UNITY ADDRESSABLES
+# ==========================================
+
+/ServerData/
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+
+# ==========================================
+# UNITY VISUAL SCRIPTING
+# ==========================================
+
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers*
+
+# ==========================================
+# ARCHIVOS AUTOGENERADOS DE UNITY
+# ==========================================
+
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+/UIElementsSchema/
+
+# ==========================================
+# WINDOWS / MACOS
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# ERRORES Y CRASHES
+# ==========================================
+
+sysinfo.txt
+mono_crash.*
