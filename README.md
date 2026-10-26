@@ -344,6 +344,3 @@ Hasta que se determine una licencia formal, no debe asumirse que el código, los
 **Ubicación del proyecto de investigación:** Ubaté, Colombia
 **Propósito:** apoyar la enseñanza-aprendizaje del inglés mediante un videojuego educativo interactivo.
 
----
-
-**Fin del documento.**
